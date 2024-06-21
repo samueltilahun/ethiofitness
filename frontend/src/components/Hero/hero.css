@@ -11,18 +11,18 @@
     gap: 2rem;
     margin-bottom: 2rem;
     z-index: 3;
+}
 
 
-    .buttons {
-        display: flex;
-        gap: 2rem;
-        /* margin-left: 2rem; */
-    }
+.buttons {
+    display: flex;
+    gap: 2rem;
+    /* margin-left: 2rem; */
+}
 
-    .buttons>div:nth-of-type(2) {
-        background: none;
-        border: 2px solid orange;
-    }
+.buttons>div:nth-of-type(2) {
+    background: none;
+    border: 2px solid orange;
 }
 
 .hero-text {
