@@ -5,6 +5,7 @@
     --orange: #f48915;
     --darkGrey: #464D53;
     --caloryCard: #656565;
+    --programsCard: #2c3e50;
     --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
     --appColor:  #3c3f45;
   }
@@ -14,8 +15,7 @@
     mix-blend-mode: overlay;
     background-color: var(--appColor);
     display: flex;
-    flex-direction: column;
-    gap: 6rem;
+    flex-direction: column; 
     overflow: hidden;
   }
   
@@ -49,3 +49,19 @@
       background-color: #f48915;
     }
 }
+
+
+.line {
+  /* position: absolute;
+  top: 0; */
+  /* margin: 2rem; */
+  align-self: center;
+  width: 90%;
+    border: none;
+    height: 2px; /* Thickness of the line */
+    background-color: white; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin: 60px 0; /* Margin above and below the line */
+  
+  
+  }
