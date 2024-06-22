@@ -9,7 +9,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id='/'>
         <div className="left">
             <Header />
             <div className="the-best-gym">

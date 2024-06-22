@@ -4,7 +4,7 @@ import './plans.css'
 
 const Plans = () => {
   return (
-    <div className="plans">
+    <div className="plans" id='plans'>
         <div className="line"></div>
         <div className='plans-title'>
             <span>ready to start <span className='stroke-text'> your journey </span> with us</span>

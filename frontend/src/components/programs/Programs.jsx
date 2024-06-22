@@ -3,7 +3,7 @@ import './programs.css'
 import { programsData } from './programsData'
 const Programs = () => {
   return (
-    <div className="programs">
+    <div className="programs" id='programs'>
         <div className="programs-text">
           <span>explore our </span>
           <span className='stroke-text'> programs </span>

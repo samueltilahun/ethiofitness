@@ -8,7 +8,7 @@ import tick from '../../assets/tick.png'
 
 const Reasons = () => {
   return (
-    <div className="reasons">
+    <div className="reasons" id='whyus'>
         <div className="line"></div>
         <div className='reasons-content'>
         <div className="pictures">
