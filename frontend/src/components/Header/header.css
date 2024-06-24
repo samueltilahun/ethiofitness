@@ -32,3 +32,32 @@
   color: var(--orange);
   transition: color 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 768px){
+    .header>:nth-child(2) {
+      /* position: fixed; */
+      right: 2rem;
+      /* margin-top: 20rem; */
+      z-index: 99;
+    }
+
+    .menu {
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 2rem;
+    }
+
+    .header .bar { 
+      border-radius: 5px;
+      padding: 0.5rem;
+      background-color: var(--appColor);
+
+      &:hover {
+        cursor: pointer;
+      }
+      img { 
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+}

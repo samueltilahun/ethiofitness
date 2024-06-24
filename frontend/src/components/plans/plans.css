@@ -87,3 +87,25 @@
         border: none;
     }
 }
+
+@media screen and (max-width: 768px){
+    .plans {
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .plans .plans-title {
+        padding-left: 1rem;
+        font-size: 3rem;
+        justify-content: center;
+    }
+
+    .plan-cards {
+        flex-direction: column;
+        gap: 0; 
+    }
+
+    .plan-cards .cards {
+        margin: 2rem;
+    }
+}

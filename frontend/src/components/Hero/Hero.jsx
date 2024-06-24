@@ -4,6 +4,7 @@ import homeimage from '../../assets/homeimage.png'
 import bodyimage from '../../assets/bodyimage.png'
 import backimage from '../../assets/backimage.png'
 import heartbeat from '../../assets/heartbeat.png'
+import NumberCounter from 'react-countup';
 import burn from '../../assets/burn.png'
 import './hero.css'
 
@@ -19,25 +20,27 @@ const Hero = () => {
 
             <div className="hero-text">
                 <div>
+                <div>
                     <span className='stroke-text'>shape </span>
                     <span>your</span>
                 </div>
-                <span>ideal body</span>
+                <span> ideal body</span>
+                </div>
                  
                     <span className='hero-paragraph'>In here we will help you to shape and build your ideal body and live up your life to fullest</span> 
             </div>
             <div className="figures">
                 <div>
-                    <span>+120</span>
+                    <span><NumberCounter end={140} start={100} duration={4} prefix="+"></NumberCounter></span>
                     <span>Expert coaches</span>
                 </div>
                 <div>
-                    <span>+100</span>
-                    <span>members joined</span>
+                <span><NumberCounter end={100} start={10} duration={4} prefix="+"></NumberCounter></span>
+                <span>members joined</span>
                 </div>
                 <div>
-                    <span>+50</span>
-                    <span>fitness programs</span>
+                <span><NumberCounter end={50} start={0} duration={4} prefix="+"></NumberCounter></span>
+                <span>fitness programs</span>
                 </div>
             </div>
 
@@ -53,10 +56,8 @@ const Hero = () => {
                 <img src={heartbeat} alt="" />
                 <span>Heart Rate</span>
                 <span>116 bpm</span>
-            </div>
-            <div className="home-image">
-                <img src={homeimage} alt="" />
-            </div>
+            </div> 
+            <img src={homeimage} alt=""  className="home-image"/> 
             
             <div className="calories">
                 <img src={burn} alt="" />

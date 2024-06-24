@@ -130,11 +130,11 @@
     }
 
 
-    .home-image img{
-        position: absolute;
+    .home-image {
+        position: relative;
         height: 47rem;
         width: 35rem;
-        left: -20rem;
+        left: -8rem;
         top: 7rem;
         z-index: 2;
         /* object-fit: cover; */
@@ -152,7 +152,7 @@
     width: fit-content;
     height: 80px; 
     bottom: 1rem;
-    left: -25rem;
+    left: -20rem;
     z-index: 3;
     align-items: center;
     justify-content: center;
@@ -213,5 +213,77 @@
     >span:nth-of-type(2) {
         color: white;
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero {
+        flex-direction: column;
+    }
+
+    .the-best-gym {
+        transform: scale(0.8);
+    }
+    
+    .hero-text {
+        >div:nth-of-type(1){
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            gap: 1rem;
+        }
+        span {
+            font-size: 2rem;
+        }
+    } 
+
+    .hero-text .hero-paragraph{
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    .figures{ 
+        div>span:nth-of-type(1){font-size: 2rem;}
+        div>span:nth-of-type(2){font-size: 1rem}
+    }
+
+    .buttons {justify-content: center;
+        div{
+            align-items: center;
+            
+        font-size: 1rem;}
+    }
+    .right {
+        position: relative;
+        background: none;
+    }
+
+    .heart-rate { 
+        left: 1rem;
+        width: fit-content;
+        top: 3rem;
+    }
+    .calories {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .calories img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .calories .calories-text>span:nth-of-type(2) {
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .right .home-image {
+        position: relative; 
+        width: 25rem;
+        left: 7rem;
+        top: 4rem;
+        z-index: 2; 
     }
 }

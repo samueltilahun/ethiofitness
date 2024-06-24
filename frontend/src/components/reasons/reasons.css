@@ -101,3 +101,22 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .reasons .reasons-content {
+        flex-direction: column;
+    }
+
+    .reasons-content .pictures {
+        flex-direction: column;  
+        margin-bottom: 3rem;
+    }
+
+    .reasons-content .pictures img {
+        width: 100%;
+    }
+
+    .heading-content .reasons-body .right-image img{
+        display: none;
+    }
+}
