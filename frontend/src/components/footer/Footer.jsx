@@ -25,9 +25,9 @@ const Footer = () => {
         </div>
         <div class="footer-contact">
             <h3>Contact Us</h3>
-            <p>123 Fitness St., Workout City, GX 12345</p>
-            <p>Email: info@ourgym.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Addis Ababa, Ethiopia</p>
+            <p>Email: samueltilahun991@gmail.com</p>
+            <p>Phone: +251977054500</p>
         </div>
         <div class="footer-social">
             <h3>Follow Us</h3>
