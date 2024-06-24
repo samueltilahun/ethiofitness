@@ -6,7 +6,7 @@ const join = () => {
     <div className="join">
         <div className="line"></div>
         <div className="join-content">
-            <div className='left-text'>
+            <div data-aos="fade-right" className='left-text'>
                 <div>
                     <span className='stroke-text'>ready to </span>
                     <span>level up </span>
@@ -16,7 +16,7 @@ const join = () => {
                     <span className='stroke-text'>with us?</span>
                 </div>
             </div>
-            <div className="join-us">
+            <div data-aos="fade-left" className="join-us">
                 <input type="text" placeholder='Enter your Email Address here' />
                 <button className='btn'>Join Now</button>
             </div>

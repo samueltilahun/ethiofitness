@@ -12,7 +12,7 @@ const Programs = () => {
 
         <div className="cards-section">
           {programsData.map(programs => (
-          <div className='cards'>
+          <div data-aos="fade-up" className='cards'>
             <i className={programs.icons}></i>
             <span>{programs.heading}</span>
             <span>{programs.details}</span>

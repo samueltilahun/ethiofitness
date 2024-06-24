@@ -19,12 +19,12 @@ const Hero = () => {
             </div>    
 
             <div className="hero-text">
-                <div>
-                <div>
-                    <span className='stroke-text'>shape </span>
-                    <span>your</span>
-                </div>
-                <span> ideal body</span>
+                <div data-aos="fade-right">
+                    <div>
+                        <span className='stroke-text'>shape </span>
+                        <span>your</span>
+                    </div>
+                    <span> ideal body</span>
                 </div>
                  
                     <span className='hero-paragraph'>In here we will help you to shape and build your ideal body and live up your life to fullest</span> 
@@ -57,7 +57,7 @@ const Hero = () => {
                 <span>Heart Rate</span>
                 <span>116 bpm</span>
             </div> 
-            <img src={homeimage} alt=""  className="home-image"/> 
+            <img data-aos="fade-up" src={homeimage} alt=""  className="home-image"/> 
             
             <div className="calories">
                 <img src={burn} alt="" />

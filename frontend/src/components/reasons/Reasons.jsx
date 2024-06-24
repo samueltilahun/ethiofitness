@@ -11,7 +11,7 @@ const Reasons = () => {
     <div className="reasons" id='whyus'>
         <div className="line"></div>
         <div className='reasons-content'>
-        <div className="pictures">
+        <div data-aos="fade-right" className="pictures">
             <img src={bodybuilder1} alt="" />
             <div>
                 <img src={bodybuilder4} alt="" />
@@ -39,7 +39,7 @@ const Reasons = () => {
                     <span>reliable partners</span>
                 </div>
                 <div className="right-image">
-                    <img src={bodybuilder3} alt="" />
+                    <img data-aos="fade-left" src={bodybuilder3} alt="" />
                 </div>
             </div>
         </div>

@@ -32,21 +32,6 @@
     flex-direction: column;  
     transition: .3s ease;
 
-    &:hover {
-        background-color: var(--orange);
-        box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-        transform: scale(1.1);
-
-        i, div, span {
-            color: white;
-        } 
-
-        button {
-            background-color: white;
-            color: black;
-        }
-    }
-
     .icon {
         margin-bottom: 2rem;
     }
@@ -86,6 +71,21 @@
         width: 100%;
         border: none;
     }
+}
+
+.cards:hover { 
+    background-color: var(--orange);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+
+    i, div, span {
+        color: white;
+    } 
+
+    button {
+        background-color: white;
+        color: black;
+    } 
 }
 
 @media screen and (max-width: 768px){
